@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Angular test</title>
+    <script src="bower_components/angularjs/angular.js"></script>
+    <script src="app/app.js"></script>
+    <script src="./app/controllers/password.controller.js"></script>
 </head>
-<body>
+<body ng-app="angular-test">
     <div ng-controller="passwordController">
         <input type="password" ng-model="password" ng-change="grade()"> your password is {{strength}}
     </div>
