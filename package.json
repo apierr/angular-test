@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/antonio-pierro/angular-test/issues"
   },
-  "homepage": "https://github.com/antonio-pierro/angular-test"
+  "homepage": "https://github.com/antonio-pierro/angular-test",
+  "devDependencies": {
+    "karma": "^0.12.31"
+  }
 }
